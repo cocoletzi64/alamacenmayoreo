@@ -5,7 +5,6 @@ import org.ericksant.obj.*;
 
 public class clasemain {
     public static void main(String[] args) {
-
         Persona erick=new Vendedor("Erick","Cocoletzi",25,
                 "Matutino",4000);
         Persona giovanni=new Vendedor("Giovanni","Cocoletzi",23,
@@ -16,7 +15,6 @@ public class clasemain {
         System.out.println(erick);
         System.out.println(giovanni);
         System.out.println(mario);
-        System.out.println();
 
 
         //PRODUCTOS
@@ -29,14 +27,10 @@ public class clasemain {
         Art_Limpieza artLimpieza=new Art_Limpieza("Jabon",54,"Salvo");
         artLimpieza.setLitros(1);
 
-        System.out.println(((Vendedor) erick).getNombre() +
+        System.out.println("\n"+((Vendedor) erick).getNombre() +
                 ((Vendedor) erick).vender() + " " +
                 nopredecedero.getNombre()+" al clinte "+((Cliente) mario).getNombre()+
                 " que "+ ((Cliente) mario).valor());
-
-
-
-
 
     }
 }

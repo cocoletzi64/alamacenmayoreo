@@ -36,5 +36,12 @@ public class Cliente extends Persona{
         }
         return descuento;
     }
+    //to String
 
+
+    @Override
+    public String toString() {
+        return "========================CLIENTE=================="+ "\n"+super.toString()+
+                "visitas= " + visitas ;
+    }
 }

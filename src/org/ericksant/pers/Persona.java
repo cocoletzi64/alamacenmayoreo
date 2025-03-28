@@ -27,4 +27,13 @@ public class Persona {
     public int getEdad() {
         return edad;
     }
+    //to String
+
+    @Override
+    public String toString() {
+        return
+                "nombre= " + nombre +"\n" +
+                "apellido='" + apellido +"\n" +
+                "edad=" + edad +"\n";
+    }
 }

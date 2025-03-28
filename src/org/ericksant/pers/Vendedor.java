@@ -35,4 +35,12 @@ public class Vendedor extends Persona{
     public String vender(){
         return " vendio el producto";
     }
+    //to String
+
+    @Override
+    public String toString() {
+        return "=====================VENDEDOR=================="+ "\n"+super.toString()+
+                "turno= " + turno + "\n" +
+                "salario= " + salario;
+    }
 }
