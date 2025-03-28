@@ -29,10 +29,10 @@ public class Cliente extends Persona{
     public String valor() {
         String descuento="descuento";
         if (visitas <=2) {
-            descuento+= " no hay descuento";
+            descuento+= " no hay descuento por no ser cleinte frecuente";
         }
         else{
-            return"tiene descuento de 20%";
+            return"tiene descuento de 20% por ser cliente frecuente";
         }
         return descuento;
     }

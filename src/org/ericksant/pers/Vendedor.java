@@ -1,8 +1,11 @@
 package org.ericksant.pers;
 
+import org.ericksant.obj.Producto;
+
 public class Vendedor extends Persona{
     private String turno;
     private double salario;
+    private Producto nombre;
 
     //constructor
 
@@ -28,5 +31,8 @@ public class Vendedor extends Persona{
 
     public void setTurno(String turno) {
         this.turno = turno;
+    }//metodo
+    public String vender(){
+        return " vendio el producto";
     }
 }
