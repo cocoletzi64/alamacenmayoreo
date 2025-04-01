@@ -5,7 +5,6 @@ import org.ericksant.obj.Producto;
 public class Vendedor extends Persona{
     private String turno;
     private double salario;
-    private Producto nombre;
 
     //constructor
 

@@ -32,5 +32,7 @@ public class clasemain {
                 nopredecedero.getNombre()+" al clinte "+((Cliente) mario).getNombre()+
                 " que "+ ((Cliente) mario).valor());
 
+
     }
+
 }
